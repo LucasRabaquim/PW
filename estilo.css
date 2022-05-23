@@ -9,8 +9,8 @@ main {
 }
 
 header {
-  background-color: #eacc5d;
-  color: #003366;
+  background-color: #01088f;
+  color: #fff;
   padding: 0px 0px 10px 0px;
 }
 
@@ -36,10 +36,11 @@ h4 {
 }
 
 .formulario{
-  border: 1px solid #52b7bd;
+  border: 1px solid #4049fa;
   border-radius: 5px;
 	padding: 10px;
-  background-color: #d3ffce;
+  color:#fff;
+  background-color: #151da6;
 }
 
 table{
@@ -67,7 +68,7 @@ input {
 }
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #868cff; /* Green */
     border: none;
     border-radius: 5px;
     color: white;
@@ -77,6 +78,12 @@ button {
     display: inline-block;
     font-size: 12px;
     box-shadow: 2px 2px gray;
+}
+button:hover{
+  transition: .3s;
+  transform: translateY(-5px);
+  cursor: pointer;
+  background:#DE0B0E;
 }
 
 .reprovado{
@@ -90,5 +97,3 @@ button {
 	font-weight:bold;
 	background-color: #0C5009;
 }
-
-
